@@ -1,1 +1,287 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+/*            Below                  */
+
+body{
+  background-color: #e6ffff;
+  background-image: url(img/snow.gif);
+  background-repeat:repeat;
+  
+}
+
+
+.NavBar{
+  border:2px solid black;
+  display: flex;
+  justify-content: center;
+  padding:1%;
+  margin-top:1%;
+  width:95%;
+  margin:0 auto;
+  border-radius:2rem ;
+
+}
+.NavBar a {
+  color:black;
+  padding:0.5rem;
+  border-radius:2rem;
+  text-decoration:none ;
+  text-transform:capitalize ;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Slabo 27px', serif;
+}
+.NavBar :hover{
+  background-color:#a8f0f08f;
+  border:1px black solid;
+  transition:.5s ease-in;
+  ;
+}
+.about{
+  background-color: coral;
+
+} 
+
+.container{
+  padding-top: 2.5%;
+  background-color:white;
+  border:1px black solid;
+  Height:55%;
+  width:90%;
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  background: rgba(0, 0, 0, 0.24)
+}
+
+/*                                        Main                                     */
+.container2{
+  display: flex;
+  flex-direction: column;
+  height:54%;
+  background-color:#e6ffff;
+  width:90%;
+  margin:0 auto;
+  
+}
+.box2{
+  margin-bottom:5%;
+  border-bottom:1px solid black;
+}
+.text{
+  font-size:1.5rem;
+}
+
+.about{
+
+}
+.fourwords{
+  font-size:2rem;
+}
+.name{
+  font-size:5rem;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  color: black;
+}
+.resume{
+  padding-top:3rem;
+  color: black;
+  text-align: center;
+  font-size:2.5rem ;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+}
+.lambda{
+  font-family: 'Slabo 27px', serif; 
+  color: black;
+  padding:10rem;
+  text-align: center;
+  font-size:2.5rem ;
+  margin:0 auto;
+
+}
+
+
+
+/*                                        Footer                                               */
+
+.contact{
+  
+  height:25%;
+  background-color: darkkhaki;
+  border: 1px solid black;
+  border-radius: 2rem;
+  width:96.5%;
+  margin:0 auto;
+  
+}
+.Me{
+  text-align: center;
+  font-size: 2rem;
+}
+.contactright{
+  float:right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+.bottom{
+  padding:0.5rem;
+}
+.email{
+  padding-top: .5rem;
+  text-align: center;
+  border: 3px solid black;
+  width:5rem;
+  height:3rem;
+  border-radius:2rem;
+  margin:0 auto;
+  margin-top: 1.5%;
+
+
+}
+.email :hover{
+  border:none;
+  background-color: cornflowerblue;
+  transition:1s ease-in;
+  width:5rem;
+  height:3rem;
+  margin:0 auto;
+  transition:.5s ease-in;
+}
